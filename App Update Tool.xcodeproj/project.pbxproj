@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D887A061BECE94D00B1EB4A /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D887A051BECE94D00B1EB4A /* AppleScriptObjC.framework */; settings = {ASSET_TAGS = (); }; };
+		7D4AF29D1D8B0D9000CB93C4 /* softwareUpdate-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D4AF29C1D8B0D9000CB93C4 /* softwareUpdate-256.png */; };
+		7D887A061BECE94D00B1EB4A /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D887A051BECE94D00B1EB4A /* AppleScriptObjC.framework */; };
 		7D887A0A1BECE94D00B1EB4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D887A091BECE94D00B1EB4A /* main.m */; };
 		7D887A0C1BECE94D00B1EB4A /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 7D887A0B1BECE94D00B1EB4A /* AppDelegate.applescript */; };
 		7D887A0E1BECE94D00B1EB4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D887A0D1BECE94D00B1EB4A /* Assets.xcassets */; };
@@ -15,7 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7D887A021BECE94D00B1EB4A /* LL App Update Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LL App Update Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4AF29C1D8B0D9000CB93C4 /* softwareUpdate-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "softwareUpdate-256.png"; sourceTree = "<group>"; };
+		7D887A021BECE94D00B1EB4A /* App Update Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Update Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D887A051BECE94D00B1EB4A /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
 		7D887A091BECE94D00B1EB4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7D887A0B1BECE94D00B1EB4A /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
@@ -39,7 +41,7 @@
 		7D8879F91BECE94D00B1EB4A = {
 			isa = PBXGroup;
 			children = (
-				7D887A071BECE94D00B1EB4A /* LL App Update Tool */,
+				7D887A071BECE94D00B1EB4A /* App Update Tool */,
 				7D887A041BECE94D00B1EB4A /* Frameworks */,
 				7D887A031BECE94D00B1EB4A /* Products */,
 			);
@@ -48,7 +50,7 @@
 		7D887A031BECE94D00B1EB4A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7D887A021BECE94D00B1EB4A /* LL App Update Tool.app */,
+				7D887A021BECE94D00B1EB4A /* App Update Tool.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,7 +63,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7D887A071BECE94D00B1EB4A /* LL App Update Tool */ = {
+		7D887A071BECE94D00B1EB4A /* App Update Tool */ = {
 			isa = PBXGroup;
 			children = (
 				7D887A0B1BECE94D00B1EB4A /* AppDelegate.applescript */,
@@ -70,12 +72,14 @@
 				7D887A121BECE94E00B1EB4A /* Info.plist */,
 				7D887A081BECE94D00B1EB4A /* Supporting Files */,
 			);
+			name = "App Update Tool";
 			path = "LL App Update Tool";
 			sourceTree = "<group>";
 		};
 		7D887A081BECE94D00B1EB4A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7D4AF29C1D8B0D9000CB93C4 /* softwareUpdate-256.png */,
 				7D887A091BECE94D00B1EB4A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -84,9 +88,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7D887A011BECE94D00B1EB4A /* LL App Update Tool */ = {
+		7D887A011BECE94D00B1EB4A /* App Update Tool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D887A151BECE94E00B1EB4A /* Build configuration list for PBXNativeTarget "LL App Update Tool" */;
+			buildConfigurationList = 7D887A151BECE94E00B1EB4A /* Build configuration list for PBXNativeTarget "App Update Tool" */;
 			buildPhases = (
 				7D8879FE1BECE94D00B1EB4A /* Sources */,
 				7D8879FF1BECE94D00B1EB4A /* Frameworks */,
@@ -96,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = "LL App Update Tool";
+			name = "App Update Tool";
 			productName = "LL App Update Tool";
-			productReference = 7D887A021BECE94D00B1EB4A /* LL App Update Tool.app */;
+			productReference = 7D887A021BECE94D00B1EB4A /* App Update Tool.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,15 +111,16 @@
 		7D8879FA1BECE94D00B1EB4A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "MIT Lincoln Labs";
 				TargetAttributes = {
 					7D887A011BECE94D00B1EB4A = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = G95YF369FG;
 					};
 				};
 			};
-			buildConfigurationList = 7D8879FD1BECE94D00B1EB4A /* Build configuration list for PBXProject "LL App Update Tool" */;
+			buildConfigurationList = 7D8879FD1BECE94D00B1EB4A /* Build configuration list for PBXProject "App Update Tool" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -128,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7D887A011BECE94D00B1EB4A /* LL App Update Tool */,
+				7D887A011BECE94D00B1EB4A /* App Update Tool */,
 			);
 		};
 /* End PBXProject section */
@@ -138,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D4AF29D1D8B0D9000CB93C4 /* softwareUpdate-256.png in Resources */,
 				7D887A0E1BECE94D00B1EB4A /* Assets.xcassets in Resources */,
 				7D887A111BECE94D00B1EB4A /* MainMenu.xib in Resources */,
 			);
@@ -182,8 +188,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -225,8 +233,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -252,11 +262,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G95YF369FG;
 				INFOPLIST_FILE = "LL App Update Tool/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.mit.ll.LL-App-Update-Tool";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.mit.LL-App-Update-Tool";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -264,18 +279,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G95YF369FG;
 				INFOPLIST_FILE = "LL App Update Tool/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.mit.ll.LL-App-Update-Tool";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.mit.LL-App-Update-Tool";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7D8879FD1BECE94D00B1EB4A /* Build configuration list for PBXProject "LL App Update Tool" */ = {
+		7D8879FD1BECE94D00B1EB4A /* Build configuration list for PBXProject "App Update Tool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7D887A131BECE94E00B1EB4A /* Debug */,
@@ -284,13 +304,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7D887A151BECE94E00B1EB4A /* Build configuration list for PBXNativeTarget "LL App Update Tool" */ = {
+		7D887A151BECE94E00B1EB4A /* Build configuration list for PBXNativeTarget "App Update Tool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7D887A161BECE94E00B1EB4A /* Debug */,
 				7D887A171BECE94E00B1EB4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
