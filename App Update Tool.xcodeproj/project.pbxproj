@@ -116,7 +116,6 @@
 				TargetAttributes = {
 					7D887A011BECE94D00B1EB4A = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = G95YF369FG;
 					};
 				};
 			};
@@ -262,14 +261,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = G95YF369FG;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "LL App Update Tool/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.mit.LL-App-Update-Tool";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.mit.App-Update-Tool";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -279,14 +278,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = G95YF369FG;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "LL App Update Tool/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.mit.LL-App-Update-Tool";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.mit.App-Update-Tool";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
